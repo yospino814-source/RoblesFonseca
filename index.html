@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robles Fonseca</title>
+  <meta
+    name="description"
+    content="Robles Fonseca, firma juridica e inmobiliaria con servicios de asesoria legal, arrendamiento y venta de propiedades."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@600&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Robles Fonseca Abogados y Consultores">
+        <span class="brand-mark" aria-hidden="true"><span>RF</span></span>
+        <span class="brand-copy">
+          <strong>Robles Fonseca</strong>
+          <small>Abogados y Consultores Asociados</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navegacion principal">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#areas">Servicios</a>
+        <a href="inmobiliaria.html">Inmobiliaria</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="header-cta" href="#contacto">Agendar consulta</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-panel">
+        <div class="hero-copy" data-reveal>
+          <span class="eyebrow" id="hero-eyebrow"></span>
+          <h1 id="hero-title"></h1>
+          <p class="hero-script" id="hero-script"></p>
+          <p id="hero-description"></p>
+
+          <div class="hero-actions">
+            <a class="button" id="hero-primary-action" href="#contacto"></a>
+            <a class="button-secondary" id="hero-secondary-action" href="#areas"></a>
+          </div>
+
+          <div class="hero-points" id="hero-points"></div>
+        </div>
+
+        <div class="hero-media" id="hero-media" data-reveal style="--delay: 120ms;">
+          <div class="hero-card" id="hero-card"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <h2 id="about-title"></h2>
+          <p id="about-lead"></p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-panel" data-reveal id="about-body"></article>
+          <aside class="value-list" data-reveal style="--delay: 120ms;" id="values-list"></aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="areas">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <h2 id="services-title"></h2>
+          <p id="services-lead"></p>
+        </div>
+
+        <div class="service-pillars" id="service-pillars"></div>
+        <div class="detail-grid" id="legal-services"></div>
+      </div>
+    </section>
+
+    <section id="inmobiliaria">
+      <div class="container split-section">
+        <article class="split-copy realty-copy" data-reveal>
+          <span class="eyebrow" id="realty-eyebrow"></span>
+          <h2 id="realty-title"></h2>
+          <p id="realty-description"></p>
+          <div class="realty-grid" id="realty-services"></div>
+          <div class="hero-actions">
+            <a class="button" id="realty-link" href="inmobiliaria.html">Ver inmobiliaria</a>
+          </div>
+        </article>
+
+        <aside class="split-media" data-reveal style="--delay: 120ms;">
+          <figure id="realty-visual" aria-label="Representacion visual de servicios inmobiliarios"></figure>
+        </aside>
+      </div>
+    </section>
+
+    <section id="propuesta">
+      <div class="container metric-banner" id="value-banner" data-reveal>
+        <h2 id="value-title"></h2>
+        <div class="metrics" id="value-metrics"></div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container contact-panel" data-reveal>
+        <article class="contact-block">
+          <h3 id="contact-title"></h3>
+          <div id="contact-copy"></div>
+        </article>
+
+        <article class="contact-block">
+          <h3 id="schedule-title"></h3>
+          <div id="schedule-copy"></div>
+        </article>
+
+        <article class="social">
+          <h3 id="channels-title"></h3>
+          <p id="channels-copy"></p>
+          <div class="social-links" id="social-links" aria-label="Redes sociales"></div>
+        </article>
+
+        <div class="footer-logo" aria-hidden="true">
+          <span class="brand-mark"><span>RF</span></span>
+        </div>
+      </div>
+
+      <div class="container subfooter">
+        <span id="footer-brand"></span>
+        <span id="footer-note"></span>
+      </div>
+    </section>
+  </main>
+
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
